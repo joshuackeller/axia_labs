@@ -1,81 +1,78 @@
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
+
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>LOCALHOST:3000 Axia Labs - Design and Dev</title>
+        <link rel="icon" href="/al.jpeg" />
       </Head>
+      <Navbar/>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
+      <div className="h-96 flex justify-center items-center">
+        <div className="flex flex-col">
+          <h1 className="mx-auto text-purple-400 font-black text-8xl ">
+            We Build
+          </h1>
+          <h1 className="mx-auto text-purple-400 font-black text-8xl">
+            Web Solutions
+          </h1>
+        </div>
+      </div>
+
+      <div className="space-x-8 flex flex-wrap mx-auto w-11/12">
+        <div className="space-x-8 lg:block text-right md:flex md:flex-col w-5/12">
+          <a className="bg-axiapink font-black text-sm px-6 py-4 rounded-lg shadow-sm hover:bg-gray-200
+                transition duration-300">
+            Schedule An Intro
           </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a className="text-gray-400 border-gray-400 border-2 px-6 py-3 rounded-lg shadow-sm
+            hover:border-gray-900 hover:text-gray-900 transition duration-300">
+            View Our Portfolio
           </a>
         </div>
-      </main>
+          <p className="w-5/12 -mt-4 text-gray-400">
+            We help teams design and develop custom software solutions. We've
+            built everything from e-commerce to mobile apps. 
+          </p>
+      </div>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
+      <div className="mx-24">
+        <div className="flex flex-wrap mx-auto justify-between mt-40 text-axiawhite">
+          <div className="bg-axiablack rounded-3xl min-h-108 w-47% shadow-2xl">
+            <img className="h-64 absolute -my-10 ml-6"
+            src="/laptop.webp"/>
+            <div className="mt-60 mx-14">
+              <h1 className="font-bold text-2xl mb-5">
+                What We Do
+              </h1>
+              <p className="font-light tracking-wide">
+                We identify customer needs that a product or feature will fulfill,
+                articulate what success looks like for those needs, and rally a 
+                team to turn that vision into a reality.
+              </p>
+            </div>
+          </div>
+          <div className="bg-axiablack rounded-3xl min-h-108 w-47% shadow-2xl ">
+            <img className="h-64 absolute -my-10"
+              src="/rocket.webp"/>
+            <div className="mt-60 mx-14">
+              <h1 className="font-bold text-2xl mb-5">
+                Who We Work With
+              </h1>
+              <p className="font-light tracking-wide"> 
+                We work with small to medium sized startups focusing on accelerating
+                their growth during any part of the startup development lifecycle.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        
       </footer>
     </div>
   )
