@@ -9,7 +9,7 @@ export default function Header() {
                     text-headersmall">
                     We Build<br />Web &nbsp; &nbsp; &nbsp; &nbsp;
                     <img className="absolute md:h-56 md:ml-56 md:-mt-40
-                        h-28 ml-32 -mt-24"
+                        sm:h-28 sm:ml-32 sm:-mt-24 h-28 ml-52 -mt-24"
                     src="/stack.webp"/>
                      Solutions
                 </h1>
