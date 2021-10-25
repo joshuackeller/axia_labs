@@ -47,7 +47,7 @@ export default function Foot() {
                     <h1 className="font-black text-logo mb-4">
                         Axia Labs
                     </h1>
-                    <div className="text-gray-400 font-light space-y-1">
+                    <div className="text-gray-400 font-light space-y-1 w-11/12">
                         <p>
                             A custom web design and development agency focused on accelerating business growth.
                         </p>

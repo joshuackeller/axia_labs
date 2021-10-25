@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>LOCALHOST:3000 Axia Labs - Design and Dev</title>
+        <title>Axia Labs - Design and Dev</title>
         <link rel="icon" href="/al.jpeg" />
       </Head>
 
