@@ -55,7 +55,8 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="md:hidden">
-                <div className="transform transition scale-y-100 duration-500"
+                <div>
+                <div className="absolute w-full -mt-10"
                 style={{
                     display: isOpen ? 'block' : 'none'
                 }}>
@@ -67,6 +68,7 @@ export default function Navbar() {
                                     transition py-3 duration-300 ">
                         Contact Us
                     </div>
+                </div>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Header() {
     return(
-        <div>
+        <div className="md:mt-0 mt-10">
             <div className="md:h-108 h-64 flex justify-center items-center md:-mb-0 -mb-10">
                 <div className="flex flex-col">
                 <h1 className="mx-auto text-axiapurple text-center font-black md:text-header tracking-tight
