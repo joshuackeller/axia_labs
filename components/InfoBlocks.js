@@ -115,7 +115,7 @@ export default function InfoBlocks() {
                     </h1>
                     <div>
                         <div className="flex justify-end ">
-                            <p className="bg-axiapurple font-bold text-xs px-4 py-1 shadow-sm hover:bg-fadedpurple
+                            <p className="bg-axiapurple font-bold text-xs px-4 py-1 shadow-sm 
                                 transition duration-300 text-white absolute rounded-full mt-4 mr-4">
                                 Consulting
                             </p>
