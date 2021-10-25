@@ -60,18 +60,22 @@ export default function Navbar() {
                 style={{
                     display: isOpen ? 'block' : 'none'
                 }}>
-                    <Link href="/">
-                        <a className="text-gray-400 hover:text-axiablack text-center transition duration-300 font-light 
-                                    tracking-wide py-3 text-sm">
+                    <div className="text-gray-400 hover:text-axiablack text-center transition duration-300 font-light 
+                                tracking-wide py-3 text-sm">
+                        <Link href="/">
+                            <a>
                             Portfolio
-                        </a>
-                    </Link>
-                    <Link href="/">
-                        <a className="bg-axiapink font-bold text-sm px-8 text-center shadow-sm hover:bg-fadedpink
-                                        transition py-3 duration-300 ">
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="bg-axiapink font-bold text-sm px-8 text-center shadow-sm hover:bg-fadedpink
+                                    transition py-3 duration-300 ">
+                        <Link href="/">
+                            <a>
                             Contact Us
-                        </a>
-                    </Link>
+                            </a>
+                        </Link>
+                    </div>
                 </div>
                 </div>
             </div>
