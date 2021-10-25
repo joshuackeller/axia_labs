@@ -116,7 +116,8 @@ export default function InfoBlocks() {
                     <div>
                         <div className="flex justify-end ">
                             <p className="bg-axiapurple font-bold text-xs px-4 py-1 shadow-sm 
-                                transition duration-300 text-white absolute rounded-full mt-4 mr-4">
+                                transition duration-300 text-white absolute rounded-full md:mt-4 md:mr-4
+                                mt-4 mr-6">
                                 Consulting
                             </p>
                         </div>
